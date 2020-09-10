@@ -31,9 +31,9 @@
 
     typedef struct {
         char version = 2;
-        char apikey[64] = "";
-        char lon[16] = "";
-        char lat[16] = "";
+        char apikey[64] = "8542ff48ef63a20058c95c4f0d581a89";
+        char lon[16] = "-96.11";
+        char lat[16] = "33.13";
         bool autosync = true;
         bool showWind = false;
         bool imperial = false;
