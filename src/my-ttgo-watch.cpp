@@ -89,15 +89,17 @@ void setup()
     powermgm_setup();
     splash_screen_stage_update( "init gui", 80 );
     splash_screen_stage_finish();
+
+    sound_setup();
     gui_setup(); 
     /*
      * add apps and widgets here!!!
      */
     weather_app_setup();
     stopwatch_app_setup();
-    crypto_ticker_setup();
+    //crypto_ticker_setup();
     example_app_setup();
-    osmand_app_setup();
+    //osmand_app_setup();
     IRController_setup();
     powermeter_app_setup();
     /*
@@ -111,8 +113,6 @@ void setup()
     blectl_setup();
 
     display_set_brightness( display_get_brightness() );
-
-    sound_setup();
 
     delay(500);
 
